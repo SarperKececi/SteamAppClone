@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F3623122AEB0809008E6B78 /* GamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3623112AEB0809008E6B78 /* GamesModel.swift */; };
+		9F3623152AEB0ACF008E6B78 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9F3623142AEB0ACF008E6B78 /* Alamofire */; };
+		9F3623182AEB0BFF008E6B78 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9F3623172AEB0BFF008E6B78 /* Kingfisher */; };
+		9F36231A2AEB25BB008E6B78 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3623192AEB25BB008E6B78 /* Tab.swift */; };
+		9F36231C2AEB2788008E6B78 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36231B2AEB2788008E6B78 /* ChartView.swift */; };
+		9F36231E2AEB29D7008E6B78 /* FavoritesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36231D2AEB29D7008E6B78 /* FavoritesScreen.swift */; };
+		9F72A4ED2AEAC61E008E5CC9 /* SteamAppCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F72A4EC2AEAC61E008E5CC9 /* SteamAppCloneApp.swift */; };
+		9F72A4EF2AEAC61E008E5CC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F72A4EE2AEAC61E008E5CC9 /* ContentView.swift */; };
+		9F72A4F12AEAC61F008E5CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F72A4F02AEAC61F008E5CC9 /* Assets.xcassets */; };
+		9F72A4F42AEAC61F008E5CC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F72A4F32AEAC61F008E5CC9 /* Preview Assets.xcassets */; };
+		9F72A4FC2AEB0288008E5CC9 /* GamesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F72A4FB2AEB0288008E5CC9 /* GamesScreen.swift */; };
+		9F72A5002AEB0358008E5CC9 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F72A4FF2AEB0358008E5CC9 /* LoginScreen.swift */; };
+		9F7F89DF2AEC039700186E2D /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7F89DE2AEC039700186E2D /* ProfileScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F3623112AEB0809008E6B78 /* GamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesModel.swift; sourceTree = "<group>"; };
+		9F3623192AEB25BB008E6B78 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		9F36231B2AEB2788008E6B78 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		9F36231D2AEB29D7008E6B78 /* FavoritesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesScreen.swift; sourceTree = "<group>"; };
+		9F72A4E92AEAC61E008E5CC9 /* SteamAppClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteamAppClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F72A4EC2AEAC61E008E5CC9 /* SteamAppCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamAppCloneApp.swift; sourceTree = "<group>"; };
+		9F72A4EE2AEAC61E008E5CC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F72A4F02AEAC61F008E5CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F72A4F32AEAC61F008E5CC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F72A4FB2AEB0288008E5CC9 /* GamesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesScreen.swift; sourceTree = "<group>"; };
+		9F72A4FF2AEB0358008E5CC9 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		9F7F89DE2AEC039700186E2D /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F72A4E62AEAC61E008E5CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3623182AEB0BFF008E6B78 /* Kingfisher in Frameworks */,
+				9F3623152AEB0ACF008E6B78 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F72A4E02AEAC61E008E5CC9 = {
+			isa = PBXGroup;
+			children = (
+				9F72A4EB2AEAC61E008E5CC9 /* SteamAppClone */,
+				9F72A4EA2AEAC61E008E5CC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F72A4EA2AEAC61E008E5CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F72A4E92AEAC61E008E5CC9 /* SteamAppClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F72A4EB2AEAC61E008E5CC9 /* SteamAppClone */ = {
+			isa = PBXGroup;
+			children = (
+				9F72A4FA2AEB0259008E5CC9 /* Screens */,
+				9F72A4EC2AEAC61E008E5CC9 /* SteamAppCloneApp.swift */,
+				9F72A4EE2AEAC61E008E5CC9 /* ContentView.swift */,
+				9F72A4F02AEAC61F008E5CC9 /* Assets.xcassets */,
+				9F72A4F22AEAC61F008E5CC9 /* Preview Content */,
+				9F72A4FF2AEB0358008E5CC9 /* LoginScreen.swift */,
+				9F3623112AEB0809008E6B78 /* GamesModel.swift */,
+				9F3623192AEB25BB008E6B78 /* Tab.swift */,
+			);
+			path = SteamAppClone;
+			sourceTree = "<group>";
+		};
+		9F72A4F22AEAC61F008E5CC9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F72A4F32AEAC61F008E5CC9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F72A4FA2AEB0259008E5CC9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9F72A4FB2AEB0288008E5CC9 /* GamesScreen.swift */,
+				9F36231B2AEB2788008E6B78 /* ChartView.swift */,
+				9F36231D2AEB29D7008E6B78 /* FavoritesScreen.swift */,
+				9F7F89DE2AEC039700186E2D /* ProfileScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F72A4E82AEAC61E008E5CC9 /* SteamAppClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F72A4F72AEAC61F008E5CC9 /* Build configuration list for PBXNativeTarget "SteamAppClone" */;
+			buildPhases = (
+				9F72A4E52AEAC61E008E5CC9 /* Sources */,
+				9F72A4E62AEAC61E008E5CC9 /* Frameworks */,
+				9F72A4E72AEAC61E008E5CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteamAppClone;
+			packageProductDependencies = (
+				9F3623142AEB0ACF008E6B78 /* Alamofire */,
+				9F3623172AEB0BFF008E6B78 /* Kingfisher */,
+			);
+			productName = SteamAppClone;
+			productReference = 9F72A4E92AEAC61E008E5CC9 /* SteamAppClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F72A4E12AEAC61E008E5CC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9F72A4E82AEAC61E008E5CC9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 9F72A4E42AEAC61E008E5CC9 /* Build configuration list for PBXProject "SteamAppClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F72A4E02AEAC61E008E5CC9;
+			packageReferences = (
+				9F3623132AEB0ACF008E6B78 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9F3623162AEB0BFF008E6B78 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 9F72A4EA2AEAC61E008E5CC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F72A4E82AEAC61E008E5CC9 /* SteamAppClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F72A4E72AEAC61E008E5CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F72A4F42AEAC61F008E5CC9 /* Preview Assets.xcassets in Resources */,
+				9F72A4F12AEAC61F008E5CC9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F72A4E52AEAC61E008E5CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F72A4FC2AEB0288008E5CC9 /* GamesScreen.swift in Sources */,
+				9F72A5002AEB0358008E5CC9 /* LoginScreen.swift in Sources */,
+				9F72A4EF2AEAC61E008E5CC9 /* ContentView.swift in Sources */,
+				9F36231E2AEB29D7008E6B78 /* FavoritesScreen.swift in Sources */,
+				9F7F89DF2AEC039700186E2D /* ProfileScreen.swift in Sources */,
+				9F36231C2AEB2788008E6B78 /* ChartView.swift in Sources */,
+				9F36231A2AEB25BB008E6B78 /* Tab.swift in Sources */,
+				9F72A4ED2AEAC61E008E5CC9 /* SteamAppCloneApp.swift in Sources */,
+				9F3623122AEB0809008E6B78 /* GamesModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9F72A4F52AEAC61F008E5CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F72A4F62AEAC61F008E5CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F72A4F82AEAC61F008E5CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SteamAppClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MRPQM82W5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = terso34.SteamAppClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F72A4F92AEAC61F008E5CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SteamAppClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MRPQM82W5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = terso34.SteamAppClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F72A4E42AEAC61E008E5CC9 /* Build configuration list for PBXProject "SteamAppClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F72A4F52AEAC61F008E5CC9 /* Debug */,
+				9F72A4F62AEAC61F008E5CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F72A4F72AEAC61F008E5CC9 /* Build configuration list for PBXNativeTarget "SteamAppClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F72A4F82AEAC61F008E5CC9 /* Debug */,
+				9F72A4F92AEAC61F008E5CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F3623132AEB0ACF008E6B78 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		9F3623162AEB0BFF008E6B78 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F3623142AEB0ACF008E6B78 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F3623132AEB0ACF008E6B78 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		9F3623172AEB0BFF008E6B78 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F3623162AEB0BFF008E6B78 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9F72A4E12AEAC61E008E5CC9 /* Project object */;
+}
